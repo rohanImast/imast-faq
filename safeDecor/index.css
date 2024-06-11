@@ -1,0 +1,773 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body,
+html {
+  font-family: Montserrat !important;
+}
+.page1 {
+  padding: 50px 2px 50px 120px;
+  background-color: #e2edf9;
+}
+.safeSection {
+  padding: 10px 50px;
+}
+.safeSection h1 {
+  margin-top: 30px;
+}
+.safeSection p {
+  margin-top: 10px;
+}
+.safeLogo {
+  height: 100px;
+}
+.SafeDash {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.SafeDash img {
+  height: 600px;
+}
+
+.homeButton {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.AboutButton {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.i-phone {
+  display: flex;
+  background-color: #fff;
+  gap: 10px;
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.i-phone p {
+  margin-bottom: 0px !important;
+}
+
+.i-phone img {
+  height: 40px;
+}
+.play-store {
+  display: flex;
+  background-color: #fff;
+  gap: 10px;
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.play-store p {
+  margin-bottom: 0px !important;
+}
+.play-store img {
+  height: 40px;
+}
+
+.icon {
+  display: flex;
+  gap: 10px;
+}
+
+.page2 {
+  padding: 50px 2px 50px 120px;
+}
+
+.aboutSafe {
+  padding: 10px 50px;
+}
+
+.aboutSafeImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.aboutSafeImage img {
+  height: 150px;
+}
+
+.page3 {
+  padding: 50px 2px 50px 120px;
+  background-color: #e2edf9;
+}
+
+.aboutSafeProgram {
+  padding: 10px 50px;
+}
+
+.unlockInner {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.unlockInner img {
+  height: 60px;
+  object-fit: contain;
+}
+.unlockInner h5 {
+  font-weight: 600;
+  color: #2362ab;
+}
+
+.page4 {
+  padding: 50px 2px 50px 120px;
+  position: relative;
+  overflow: hidden;
+}
+.unlockSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.aboutSafeImageProgram {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  top: 6%;
+}
+.aboutSafeImageProgram img {
+  height: 100%;
+  top: 11%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.unlockOuter {
+  width: 250px;
+  height: 100%;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  min-height: 200px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.unlockOuter p {
+  margin-top: 10px;
+}
+.text-head {
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+.downloadSafe {
+  padding: 10px 50px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.downloadSafe img {
+  height: 150px;
+  object-fit: contain;
+}
+.downloadSafe h1 {
+  margin-top: 10px;
+  font-size: 60px;
+  color: #eb0c10;
+}
+.downalodSafeImages {
+  display: flex;
+  justify-content: center;
+}
+.downalodSafeImages img {
+  height: 450px;
+}
+
+footer {
+  background: #e2edf9;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer .content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 0px 40px;
+}
+footer .content .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details {
+  color: #2362ab;
+  font-size: 30px;
+}
+.content .top .media-icons {
+  display: flex;
+}
+.content .top .media-icons a {
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1) {
+  color: #4267b2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(1):hover {
+  color: #4267b2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2) {
+  color: #1da1f2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2):hover {
+  color: #1da1f2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3) {
+  color: #e1306c;
+
+  background: white;
+}
+.top .media-icons a:nth-child(3):hover {
+  color: #e1306c;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4) {
+  background: #0077b5;
+}
+.top .media-icons a:nth-child(4):hover {
+  color: #0077b5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5) {
+  background: #ff0000;
+}
+.top .media-icons a:nth-child(5):hover {
+  color: #ff0000;
+  background: #fff;
+}
+
+footer .bottom-details {
+  width: 100%;
+  background: black;
+}
+footer .bottom-details .bottom_text {
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.bottom-details .bottom_text a {
+  margin-right: 10px;
+  color: #fff;
+}
+.mail,
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.talk_us {
+  color: #2362ab;
+  text-align: center;
+}
+.feel {
+  font-size: 20px;
+}
+
+.contact-btn {
+  padding: 10px 30px;
+  color: #2362ab;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  font-weight: 600;
+  background-color: #fff;
+}
+
+.footer-talk {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .page1 {
+    padding: 10px 10px;
+  }
+  .safeSection {
+    padding: 0px;
+    text-align: center;
+  }
+  .safeSection h1 {
+    font-size: 24px;
+  }
+  .safeSection p {
+    font-size: 14px;
+  }
+  .homeButton {
+    justify-content: center;
+  }
+  .icon {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .SafeDash img {
+    height: 300px;
+  }
+  .page2 {
+    padding: 10px 10px;
+  }
+  .aboutSafe {
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .aboutSafe h1 {
+    font-size: 24px;
+  }
+  .aboutSafe p {
+    font-size: 14px;
+  }
+  .aboutSafeImage {
+    margin-bottom: 20px;
+  }
+  .page3 {
+    padding: 10px 10px;
+    height: 1650px;
+  }
+
+  .aboutSafeProgram {
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .aboutSafeProgram h1 {
+    font-size: 24px;
+  }
+  .aboutSafeProgram p {
+    font-size: 14px;
+  }
+  .unlockSection {
+    justify-content: center;
+  }
+  .unlockOuter p {
+    text-align: left;
+  }
+  .aboutSafeImageProgram {
+    padding-top: 300px;
+    top: 30px;
+  }
+  .aboutSafeImageProgram img {
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    transform: translateX(-50%);
+    height: 300px;
+  }
+
+  .page4 {
+    padding: 10px 10px;
+  }
+  .downloadSafe {
+    padding: 30px 0px;
+  }
+
+  .aboutSafeImage img {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .downalodSafeImages img {
+    height: 200px;
+  }
+  .downloadSafe img {
+    height: 100px;
+  }
+  .downloadSafe h1 {
+    font-size: 24px;
+  }
+  .text-head {
+    font-size: 24px;
+  }
+  .slideSection img {
+    height: 100px;
+  }
+  .downloadSection img {
+    height: 100px;
+  }
+  .downloadSection h1 {
+    font-size: 26px;
+  }
+  .talk_us {
+    font-size: 22px;
+  }
+  .feel {
+    font-size: 14px;
+  }
+  .phone,
+  .mail h4 {
+    font-size: 18px;
+  }
+  .phone,
+  .mail p {
+    font-size: 14px;
+  }
+  footer .bottom-details .bottom_text {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .set-head {
+    padding: 0px;
+  }
+  .footer-talk {
+    flex-direction: column;
+  }
+  footer .content .top {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .page1 {
+    padding: 10px 10px;
+  }
+  .safeSection {
+    padding: 0px;
+    text-align: center;
+  }
+  .safeSection h1 {
+    font-size: 24px;
+  }
+  .safeSection p {
+    font-size: 14px;
+  }
+  .homeButton {
+    justify-content: center;
+  }
+  .icon {
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .SafeDash img {
+    height: 300px;
+  }
+  .page2 {
+    padding: 10px 10px;
+  }
+  .aboutSafe {
+    padding: 0px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .aboutSafe h1 {
+    font-size: 24px;
+  }
+  .aboutSafe p {
+    font-size: 14px;
+  }
+  .aboutSafeImage {
+    margin-bottom: 20px;
+  }
+  .page3 {
+    padding: 10px 10px;
+    height: 1565px;
+  }
+
+  .aboutSafeProgram {
+    padding: 0px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .aboutSafeProgram h1 {
+    font-size: 24px;
+  }
+  .aboutSafeProgram p {
+    font-size: 14px;
+  }
+  .unlockSection {
+    justify-content: center;
+  }
+  .unlockOuter p {
+    text-align: left;
+  }
+  .aboutSafeImageProgram {
+    padding-top: 300px;
+    top: 30px;
+  }
+  .aboutSafeImageProgram img {
+    position: absolute;
+    left: 50%;
+    top: 35px;
+    transform: translateX(-50%);
+    height: 300px;
+  }
+
+  .page4 {
+    padding: 10px 10px;
+  }
+  .downloadSafe {
+    padding: 30px 0px;
+  }
+
+  .aboutSafeImage img {
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .downalodSafeImages img {
+    height: 200px;
+  }
+  .downloadSafe img {
+    height: 100px;
+  }
+  .downloadSafe h1 {
+    font-size: 24px;
+  }
+  .text-head {
+    font-size: 24px;
+  }
+  .slideSection img {
+    height: 100px;
+  }
+  .downloadSection img {
+    height: 100px;
+  }
+  .downloadSection h1 {
+    font-size: 26px;
+  }
+  .talk_us {
+    font-size: 22px;
+  }
+  .feel {
+    font-size: 14px;
+  }
+  .phone,
+  .mail h4 {
+    font-size: 18px;
+  }
+  .phone,
+  .mail p {
+    font-size: 14px;
+  }
+  footer .bottom-details .bottom_text {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .set-head {
+    padding: 0px;
+  }
+  .footer-talk {
+    flex-direction: column;
+  }
+  footer .content .top {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page1 {
+    padding: 50px 50px;
+  }
+  .page2 {
+    padding: 50px 50px;
+  }
+  .aboutSafe {
+    padding: 0px;
+  }
+  .aboutSafeImage img {
+    height: 100px;
+  }
+  .SafeDash img {
+    height: 500px;
+  }
+  .safeSection {
+    padding: 0px;
+  }
+  .page3 {
+    padding: 50px 50px;
+  }
+  .aboutSafeProgram {
+    padding: 0px;
+  }
+  .aboutSafeImageProgram {
+    top: 4%;
+  }
+  .aboutSafeImageProgram img {
+    top: 12%;
+    width: 100%;
+    object-fit: unset;
+  }
+  .page4 {
+    padding: 50px 50px;
+  }
+  .downloadSafe img {
+    height: 100px;
+  }
+  .downloadSafe h1 {
+    font-size: 24px;
+  }
+  .downloadSafe {
+    padding: 0px;
+  }
+  .downalodSafeImages img {
+    height: 300px;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a {
+    font-size: 15px;
+  }
+  .talk_us {
+    font-size: 22px;
+  }
+  .feel {
+    font-size: 12px;
+  }
+  .phone .mail,
+  h4 {
+    font-size: 16px;
+  }
+  .phone .mail,
+  p {
+    font-size: 14px;
+  }
+  footer .bottom-details .bottom_text {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .set-head {
+    padding: 0px;
+  }
+
+  .footer-talk {
+    gap: 50px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .page1 {
+    padding: 50px 50px;
+  }
+  .page2 {
+    padding: 50px 50px;
+  }
+  .aboutSafe {
+    padding: 0px;
+  }
+  .aboutSafeImage img {
+    height: 100px;
+  }
+  .SafeDash img {
+    height: 500px;
+  }
+  .safeSection {
+    padding: 0px;
+  }
+  .page3 {
+    padding: 50px 50px;
+  }
+  .aboutSafeProgram {
+    padding: 0px;
+  }
+  .aboutSafeImageProgram {
+    top: 4%;
+  }
+  .aboutSafeImageProgram img {
+    top: 12%;
+    width: 100%;
+    object-fit: unset;
+  }
+  .page4 {
+    padding: 50px 50px;
+  }
+  .downloadSafe img {
+    height: 100px;
+  }
+  .downloadSafe h1 {
+    font-size: 24px;
+  }
+  .downloadSafe {
+    padding: 0px;
+  }
+  .downalodSafeImages img {
+    height: 300px;
+  }
+  .talk_us {
+    font-size: 22px;
+  }
+  .feel {
+    font-size: 14px;
+  }
+  .phone .mail,
+  h4 {
+    font-size: 16px;
+  }
+  .phone .mail,
+  p {
+    font-size: 14px;
+  }
+  footer .bottom-details .bottom_text {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .set-head {
+    padding: 0px;
+  }
+
+  .footer-talk {
+    gap: 50px;
+  }
+  .text-head{
+    text-align: left;
+  }
+}

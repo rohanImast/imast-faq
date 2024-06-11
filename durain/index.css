@@ -1,0 +1,709 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box !important;
+}
+body,
+html {
+  font-family: Montserrat !important;
+}
+.durainHead {
+  background-color: #fffaee !important;
+}
+
+.page1 {
+  background-color: #fffaee !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 40px;
+}
+.banner {
+  margin-top: 10px;
+}
+.banner h1 {
+  font-size: 45px;
+}
+.short-dis {
+  font-size: 20px;
+  text-align: center;
+}
+
+.homeButton {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.AboutButton {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.i-phone {
+  display: flex;
+  background-color: #fff;
+  gap: 10px;
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.i-phone p {
+  margin-bottom: 0px !important;
+}
+
+.i-phone img {
+  height: 40px;
+}
+.play-store {
+  display: flex;
+  background-color: #fff;
+  gap: 10px;
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.play-store p {
+  margin-bottom: 0px !important;
+}
+.play-store img {
+  height: 40px;
+}
+.dashImage {
+  margin-top: 30px;
+}
+.dashImage img {
+  height: 700px;
+}
+
+.page2 {
+  background-image: url("./images/aboutBg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Dooryellow {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Dooryellow {
+  font-size: 18px;
+}
+.dashReward {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.dashReward img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.page3 {
+  background-color: #fffaee !important;
+  padding: 50px 0px;
+}
+
+.AboutProgram {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.AboutProgram {
+  font-size: 18px;
+}
+.programDash {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+.programDash img {
+  height: 200px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.text-head {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 30px;
+}
+.set-head {
+  padding: 50px;
+}
+.slideSection {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.slideSection img {
+  height: 200px;
+}
+
+.slideSection h5 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 26px;
+}
+.slideSection p {
+  text-align: center;
+}
+.page5 {
+  background-color: #fffaee;
+  padding: 50px 0px;
+}
+.downloadSection {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.downloadSection img {
+  height: 176px;
+}
+.downloadSection h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #d12527;
+}
+.dashboardImages {
+  display: flex;
+  justify-content: center;
+}
+.dashboardImages img {
+  height: 540px;
+  object-fit: contain;
+}
+
+.talk_us {
+  color: #fff;
+  text-align: center;
+}
+.feel {
+  font-size: 20px;
+}
+
+.contact-btn {
+  padding: 10px 30px;
+  color: black;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+}
+
+footer {
+  background: #d12527;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+footer .content {
+  max-width: 1250px;
+  margin: auto;
+  padding: 30px 40px 0px 40px;
+}
+footer .content .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.content .top .logo-details {
+  color: #fff;
+  font-size: 30px;
+}
+.content .top .media-icons {
+  display: flex;
+}
+.content .top .media-icons a {
+  height: 40px;
+  width: 40px;
+  margin: 0 8px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  font-size: 17px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+.top .media-icons a:nth-child(1) {
+  color: #4267b2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(1):hover {
+  color: #4267b2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2) {
+  color: #1da1f2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(2):hover {
+  color: #1da1f2;
+  background: #fff;
+}
+.top .media-icons a:nth-child(3) {
+  color: #e1306c;
+
+  background: white;
+}
+.top .media-icons a:nth-child(3):hover {
+  color: #e1306c;
+  background: #fff;
+}
+.top .media-icons a:nth-child(4) {
+  background: #0077b5;
+}
+.top .media-icons a:nth-child(4):hover {
+  color: #0077b5;
+  background: #fff;
+}
+.top .media-icons a:nth-child(5) {
+  background: #ff0000;
+}
+.top .media-icons a:nth-child(5):hover {
+  color: #ff0000;
+  background: #fff;
+}
+
+footer .bottom-details {
+  width: 100%;
+  background: black;
+}
+footer .bottom-details .bottom_text {
+  max-width: 1250px;
+  margin: auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom-details .bottom_text span,
+.bottom-details .bottom_text a {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.bottom-details .bottom_text a {
+  margin-right: 10px;
+  color: #fff;
+}
+.mail,
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 900px) {
+  footer .content .link-boxes {
+    flex-wrap: wrap;
+  }
+  footer .content .link-boxes .input-box {
+    width: 40%;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 700px) {
+  footer {
+    position: relative;
+  }
+  .content .top .logo-details {
+    font-size: 26px;
+  }
+  .content .top .media-icons a {
+    height: 35px;
+    width: 35px;
+    font-size: 14px;
+    line-height: 35px;
+  }
+  footer .content .link-boxes .box {
+    width: calc(100% / 3 - 10px);
+  }
+  footer .content .link-boxes .input-box {
+    width: 60%;
+  }
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a {
+    font-size: 11px;
+  }
+}
+@media (max-width: 520px) {
+  footer::before {
+    top: 145px;
+  }
+  footer .content .top {
+    flex-direction: column;
+  }
+  .content .top .media-icons {
+    margin-top: 16px;
+  }
+  footer .content .link-boxes .box {
+    width: calc(100% / 2 - 10px);
+  }
+  footer .content .link-boxes .input-box {
+    width: 100%;
+  }
+}
+
+.footer-talk {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px 0px;
+}
+
+/* Media quries  */
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .page1 {
+    padding: 10px;
+  }
+  .dashImage img {
+    height: 100px;
+  }
+  .homeButton {
+    flex-wrap: wrap;
+  }
+  .AboutButton {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dashboardImages img {
+    height: 200px;
+  }
+  .banner h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .short-dis {
+    font-size: 14px;
+  }
+  .Dooryellow {
+    height: 100%;
+    text-align: center;
+    font-size: 14px;
+  }
+  .AboutProgram {
+    font-size: 14px;
+  }
+  .page3 {
+    text-align: center;
+    padding: 0px;
+  }
+  .dashReward img {
+    height: 100px;
+  }
+  .programDash img {
+    height: 100px;
+  }
+  .text-head {
+    font-size: 15px;
+  }
+  .slideSection img {
+    height: 100px;
+  }
+  .downloadSection img {
+    height: 100px;
+  }
+  .downloadSection h1 {
+    font-size: 26px;
+  }
+  .talk_us {
+    font-size: 22px;
+  }
+  .feel {
+    font-size: 14px;
+  }
+  .phone,
+  .mail h4 {
+    font-size: 18px;
+  }
+  .phone,
+  .mail p {
+    font-size: 14px;
+  }
+  footer .bottom-details .bottom_text {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .set-head {
+    padding: 0px;
+  }
+  .footer-talk {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .page1 {
+    padding: 10px;
+  }
+  .dashImage img {
+    height: 200px;
+  }
+  .homeButton {
+    flex-wrap: wrap;
+  }
+  .AboutButton {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dashboardImages img {
+    height: 200px;
+  }
+  .banner h1 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .short-dis {
+    font-size: 14px;
+  }
+  .Dooryellow {
+    height: 100%;
+    text-align: center;
+  }
+  .AboutProgram {
+    font-size: 14px;
+  }
+  .page3 {
+    text-align: center;
+    padding: 0px;
+  }
+  .dashReward img {
+    height: 100px;
+  }
+  .programDash img {
+    height: 100px;
+  }
+  .text-head {
+    font-size: 20px;
+  }
+  .slideSection img {
+    height: 100px;
+  }
+  .downloadSection img {
+    height: 100px;
+  }
+  .downloadSection h1 {
+    font-size: 26px;
+  }
+  .set-head {
+    padding: 0px;
+  }
+  .talk_us {
+    font-size: 22px;
+  }
+  .feel {
+    font-size: 14px;
+  }
+  .phone .mail,
+  h4 {
+    font-size: 18px;
+  }
+  .phone .mail,
+  p {
+    font-size: 14px;
+  }
+  footer .bottom-details .bottom_text {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-talk {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page1 {
+    padding: 10px;
+  }
+  .dashImage img {
+    height: 300px;
+  }
+  .homeButton {
+    flex-wrap: wrap;
+  }
+  .AboutButton {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dashboardImages img {
+    height: 200px;
+  }
+  .banner h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .short-dis {
+    font-size: 16px;
+  }
+  .Dooryellow {
+    height: 100%;
+    font-size: 14px;
+  }
+  .AboutProgram {
+    font-size: 14px;
+    text-align: left;
+  }
+  .page3 {
+    text-align: center;
+    padding: 0px;
+  }
+  .dashReward img {
+    height: 130px;
+  }
+  .programDash img {
+    height: 100px;
+  }
+  .text-head {
+    font-size: 15px;
+  }
+  .slideSection img {
+    height: 100px;
+  }
+  .downloadSection img {
+    height: 100px;
+  }
+  .downloadSection h1 {
+    font-size: 26px;
+  }
+  .talk_us {
+    font-size: 22px;
+  }
+  .feel {
+    font-size: 14px;
+  }
+  .phone .mail,
+  h4 {
+    font-size: 18px;
+  }
+  .phone .mail,
+  p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+  footer .bottom-details .bottom_text {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .set-head {
+    padding: 0px;
+  }
+
+  .footer-talk {
+    gap: 50px;
+  }
+  .contact-btn {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .page1 {
+    padding: 10px;
+  }
+  .dashImage img {
+    height: 350px;
+  }
+  .homeButton {
+    flex-wrap: wrap;
+  }
+  .AboutButton {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dashboardImages img {
+    height: 200px;
+  }
+  .banner h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .short-dis {
+    font-size: 18px;
+  }
+  .Dooryellow {
+    height: 100%;
+    font-size: 14px;
+  }
+  .AboutProgram {
+    font-size: 14px;
+    text-align: left;
+  }
+  .page3 {
+    text-align: center;
+    padding: 0px;
+  }
+  .dashReward img {
+    height: 130px;
+  }
+  .programDash img {
+    height: 100px;
+  }
+  .text-head p {
+    font-size: 20px !important;
+  }
+  .slideSection img {
+    height: 100px;
+  }
+  .downloadSection img {
+    height: 100px;
+  }
+  .downloadSection h1 {
+    font-size: 26px;
+  }
+  .talk_us {
+    font-size: 22px;
+  }
+  .feel {
+    font-size: 14px;
+  }
+  .phone .mail,
+  h4 {
+    font-size: 16px;
+  }
+  .phone .mail,
+  p {
+    font-size: 14px;
+  }
+  footer .bottom-details .bottom_text {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .set-head {
+    padding: 0px;
+  }
+
+  .footer-talk {
+    gap: 50px;
+  }
+}
